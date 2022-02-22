@@ -6,8 +6,15 @@
     --accent-dark: #339989ff;     /* persian-green */
     --accent-light: #7de2d1ff; /* middle-blue-green */
     --light: #fffafbff;              /* snow */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 2em 1em 2em;
+}
 
 .nav {
     display: flex;
