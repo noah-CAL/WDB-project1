@@ -1,3 +1,13 @@
+
+* {
+    /* CSS HEX from coolors.co */
+    --eerie-black: #131515ff;
+    --jet: #2b2c28ff;
+    --persian-green: #339989ff;
+    --middle-blue-green: #7de2d1ff;
+    --snow: #fffafbff;
+}
+
 .nav {
     display: flex;
     justify-content: space-around;
