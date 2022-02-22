@@ -1,18 +1,26 @@
 
 * {
     /* CSS HEX from coolors.co */
-    --eerie-black: #131515ff;
-    --jet: #2b2c28ff;
-    --persian-green: #339989ff;
-    --middle-blue-green: #7de2d1ff;
-    --snow: #fffafbff;
+    --main-dark: #131515ff;       /* eerie-black */
+    --main-light: #2b2c28ff;               /* jet */
+    --accent-dark: #339989ff;     /* persian-green */
+    --accent-light: #7de2d1ff; /* middle-blue-green */
+    --light: #fffafbff;              /* snow */
 }
+
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .nav-button {
-    background-color: lightpink;
+    text-decoration: underline;
+    text-decoration-color: var(--main-dark);
+    transition: 0.1s;
+    padding: 0.9em;
+}
+
+.nav-button.active {
+    text-decoration-color: var(--accent-light);
 }
