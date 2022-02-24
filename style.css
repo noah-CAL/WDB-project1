@@ -132,6 +132,8 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 .proj-info {
     flex-basis: 40%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .proj-name {
@@ -144,6 +146,14 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
     font-weight: lighter;
     font-size: small;
     line-height: 2em;
+}
+
+.proj-img-link {
+    justify-self: flex-end;
+}
+.proj-img-link img {
+    height: 50px;
+    width: auto;
 }
 
 
