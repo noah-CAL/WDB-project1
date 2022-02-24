@@ -97,7 +97,7 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 
 /* **START PORTFOLIO** */
 .portfolio {
-    border: 1px solid pink;
+    border: 1px solid pink; /* FIXME remove this (or change the color) */
     width: 100%;
     height: 300px;
     display: flex;
@@ -105,15 +105,45 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 }
 
 .proj-col {
+    display: flex;
+    flex-direction: row;
     transition: box-shadow 0.1s linear 0s;
+    border-radius: 5px;
 }
 
 .proj-col:hover {
-    box-shadow: 1px 2px 5px black;
+    box-shadow: 1px 2px 5px var(--main-dark);
 }
 
-.proj-col img {
-    width: 20%;
+.proj-box {
+    border-radius: 5px;
+    border: 3px solid black; /* FIXME remove this */
+    margin: 0em 0.5em 1em 0.5em;
+    padding: 0.5em
+}
+
+.proj-img {
+    flex-basis: 60%;
+    width: 30%;
+    margin-left: 0em;
+    border: 3px solid black; /* FIXME remove this */
+}
+
+.proj-info {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.proj-name {
+    text-transform: uppercase;
+    font-family: sans;
+    font-size: larger;
+}
+
+.proj-desc {
+    font-weight: lighter;
+    font-size: small;
+    line-height: 2em;
 }
 
 
