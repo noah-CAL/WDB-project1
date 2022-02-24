@@ -175,6 +175,10 @@ body {
     box-shadow: 1px 1px 3px var(--main-dark);
 }
 
+#code-highlighter {
+    flex-basis: 30%;
+}
+
 #enigma {
     flex-basis: 30%;
 }
