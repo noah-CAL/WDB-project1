@@ -14,6 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 1em;
+    zoom: 150%;
+}
+
+.splash-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .top-gradient {
@@ -29,6 +36,7 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
     justify-content: space-between;
     margin-bottom: 1em;
     padding-left: 1em;
+    width: 100%;
 }
 
 .nav {
@@ -63,4 +71,9 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+#arrow {
+    font-size: 2em;
+    font-family: monospace;
 }
