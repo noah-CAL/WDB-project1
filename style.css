@@ -14,9 +14,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 1em;
-    zoom: 150%;
+    zoom: 175%;
 }
 
+/* **START SPLASH PAGE** */
 .splash-page {
     display: flex;
     flex-direction: column;
@@ -76,4 +77,24 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 #arrow {
     font-size: 2em;
     font-family: monospace;
+    animation-name: hover-up-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes hover-up-down {
+    from {
+        transform: translateY(0px);
+    } 
+
+    to {
+        transform: translateY(5px);
+    }
+}
+/* **END SPLASH PAGE** */
+
+/* **START PORTFOLIO** */
+
+
+/* **END PORTFOLIO** */
