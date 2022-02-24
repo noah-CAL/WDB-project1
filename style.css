@@ -109,6 +109,7 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
     align-items: center;
     transition: box-shadow 0.1s linear 0s;
     border-radius: 5px;
+    margin-bottom: 1em;
 }
 
 .proj-col:hover {
@@ -164,3 +165,7 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 }
 
 /* **END PORTFOLIO** */
+/* **START CONTACT** */
+
+
+/* **END CONTACT** */
