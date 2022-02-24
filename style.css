@@ -97,7 +97,6 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 
 /* **START PORTFOLIO** */
 .portfolio {
-    border: 1px solid pink; /* FIXME remove this (or change the color) */
     width: 100%;
     height: 300px;
     display: flex;
@@ -107,6 +106,7 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 .proj-col {
     display: flex;
     flex-direction: row;
+    align-items: center;
     transition: box-shadow 0.1s linear 0s;
     border-radius: 5px;
 }
@@ -124,9 +124,9 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 
 .proj-img {
     flex-basis: 60%;
-    width: 30%;
+    max-width: 100%;
+    height:auto;
     margin-left: 0em;
-    border: 3px solid black; /* FIXME remove this */
 }
 
 .proj-info {
@@ -151,10 +151,16 @@ background: radial-gradient(circle, var(--accent-dark) 0%, var(--accent-light) 1
 .proj-img-link {
     justify-self: flex-end;
 }
+
 .proj-img-link img {
     height: 50px;
     width: auto;
+    transition: box-shadow 0.1s linear 0s;
+    border-radius: 50%;
 }
 
+.proj-img-link img:hover {
+    box-shadow: 1px 1px 3px var(--main-dark);
+}
 
 /* **END PORTFOLIO** */
